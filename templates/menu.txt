@@ -3,6 +3,9 @@
 	<a href="index.html">HOME</a>
 	</li>
 	<li>
+	<a href="samples.html">SAMPLES</a>
+	</li>
+	<li>
 	<a href="about.html">ABOUT</a>
 	</li>
 	<!--
