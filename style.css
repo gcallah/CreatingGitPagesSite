@@ -4,258 +4,149 @@ body {
     font-size: 100%;
     color: #ddd;
     background: #444;
-    font-family: Arial, Helvetica, sans-serif
-}
-
-a:link {
-    color: #acf;
-}
-
-a:visited {
-    color: #cbf;
+    line-height: 2.0;
+    font-family: Verdana, Geneva, sans-serif
 }
 
 table, th, td {
-    margin: .4em 2.5em .4em 2.5em;
-    font-size: 1em;
-    border-collapse: collapse;
     border: 1px solid black;
     }
-
-th, td {
-        padding: 1em;
-}
-
-th {
-    background: #bdf;
-}
-
-th.table-head {
-    background: #fcc;
-}
-
-td {
-    background: #fff;
-}
+    th, td {
+            padding: 15px;
+    }
 
 p {
-    margin: .4em 1.5em .4em 1.5em;
-    font-size: 1.4em;
+    font-size: 1.2em;
+    margin: .6em 6em .6em 5em;
     padding: 0;
     line-height: 140%;
 }
 
 hr {
-    margin: 2em 20em 2em 20em;
-}
-
-blockquote {
-    margin: .4em 6em .4em 6em;
-    font-size: 1.1em;
+    margin: 2em 12em 2em 12em;
 }
 
 ol, ul, dl, li {
-    margin: 1em 1.5em .4em 1.5em;
-    font-size: 1.2em;
+    margin: 1.6em 8em .6em 3em;
 }
 
 ul.centered {
-    text-align: center;
     list-style-position: inside;
-    font-size: 1em;
+}
+.menu {
+    margin: 1.6em 12em 0em 12em;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: #321;
 }
 
-ol.nested, ul.nested, dl.nested {
-    font-size: .8em;
+a {
+    text-decoration: none;
+    color: #aaf;
+}
+a:link {
+    color: #caf;
+}
+a:visited {
+    color: #fac;
 }
 
-dt {
-    font-size: 1.1rem;
-    font-weight: bold;
-    margin: .4em 3em .4em 1em;
+p.model {
+/*    text-align: center; */
 }
 
-#header {
-    width: auto;
-    height: 3em;
-    padding: .5em 2em;
-    line-height: 2em;
-    background-color: #9fb;
-    color: #448;
-    overflow: hidden;
+p.menu {
+    text-align: center;
+    margin: .4em 4em .8em 4em;
+    font-size: 1.4em;
 }
 
-#header a:link, #header a:visited {
-    color: #748;
+figure {
+    margin: 1.4em 1em 1.4em 1em;
+    text-align: center;
+}
+figure.logo {
+    margin: 0em 0em .6em 0em;
 }
 
-#header a:focus , #header a:hover {
-    text-decoration: underline;
+figure figcaption {
+    color: #69c;
+    font-style: italic;
+    margin: .8em 1em .8em 1em;
 }
 
 h1,h2,h3,h4,h5 {
-    font-weight: 500;
+    font-weight: 400;
 }
 
 h1 {
-    margin: 0em 0em 1em 0em;
-    padding-bottom: .8em;
-    padding-top: .8em;
+    margin: 1em 8em 1.4em 8em;
     text-align: center;
-    font-weight: 300;
-    font-size: 2.2em;
-    color: #933;
-    background-color: #cbe;
-}
-
-h1#course-title {
-    margin: 0em 0em 0em 0em;
-}
-
-h1.chap-title {
-    margin: 0em 0em 0em 0em;
+    font-size: 2em;
+    color: #339;
+    background-color: #cad;
 }
 
 h2 {
     font-size: 1.8em;
-    margin: 1.2em 1em .6em 1em;
-    color: #e24;
+    margin: 1.4em .6em 1.3em .6em;
+    color: #9cc;
 }
 
 h2.subhead {
     font-weight: normal;
+    margin-top: 0;
 }
 
 h3 {
     font-size: 1.6em;
-    margin: 1em 1.4em .6em 1.4em;
+    margin: 1.4em .6em 1.3em .6em;
     color: #ecb;
 }
 
 h4 {
     font-size: 1.5em;
-    margin: .8em 1.6em .6em 1.6em;
-    color: #b3f;
+    margin: 1.4em .6em 1.2em 4em;
+    color: #caf;
+/*	text-align: center */
 }
 
-code {
-    font-family: monospace;
-    background: inherit;
-    color: #4df;
+h5 {
+    font-size: 1.4em;
+    margin: 1.4em .6em 1.2em .6em;
+    color: #faa;
 }
 
 summary.sum1 {
-    font-size: 1.7em;
-    color: #903;
+    font-size: 1.6em;
+    color: #e69;
     margin: .8em 1.2em .8em 1.2em;
 }
 
 summary.sum2 {
-    font-size: 1.6em;
-    color: #137;
+    font-size: 1.5em;
+    color: #acf;
     margin: .6em 1.2em .6em 2em;
 }
 
 summary.sum3 {
-    font-size: 1.5em;
-    color: #339;
+    font-size: 1.4em;
+    color: #aac;
     margin: .4em 1.2em .4em 2.8em;
 }
 
 summary.sum4 {
-    font-size: 1.4em;
-    color: #903;
+    font-size: 1.3em;
+    color: #fac;
     margin: .4em 1.2em .4em 2.8em;
 }
 
 summary.menu_sum {
     font-size: 1.4em;
-    color: #639;
+    color: #fac;
     margin: .5em 0em .5em 0em;
 }
 
-p.copyright {
-    text-align: center;
-    margin: 2em 1em 1em 1em;
-    font-size: 1.1em;
-    color: #ebd;
-}
-
-p.author {
-    text-align: center;
-    margin: 1em 1em 1em 1em;
-    font-size: 1.5em;
-    color: #e9c;
-}
-
-p.leadquote {
-    font-style: italic;
-    text-align: center;
-    margin: 1em 1em 1em 2em;
-    font-size: 1.4em;
-    color: #9eb;
-}
-
-p.menu {
-    text-align: center;
-    margin: 1em 1em 1em 2em;
-    font-size: 1.4em;
-    color: #9eb;
-}
-
-p.def {
-    margin: .8em 1.5em .3em 4em;
-    font-size: 1.3em;
-    color: #cac;
-}
-
-.lead_illus {
-    text-align: center;
-}
-
-#logo {
-    float: left;
-}
-
-#user-tools {
-    float: right;
-    padding: 0;
-    margin: 0 0 0 1em;
-    font-weight: 300;
-    font-size: .7em;
-    letter-spacing: .1em;
-    text-transform: uppercase;
-    text-align: right;
-}
-
-figure {
-    text-align: center;
-}
-
-figure.lead-figure {
-    margin: 0em 1em 1em 1em;
-}
-
-figcaption {
-    color: #ced;
-    font-style: italic;
-    text-align: center;
-    margin: .8em 1em .6em 1em;
-}
-
-span.frac {
-  display: inline-block;
-  text-align: center;
-  vertical-align: middle;
-}
-
-span.frac > sup, span.frac > sub {
-  display: block;
-  font: inherit;
-  padding: 0 0.3em;
-}
-
-span.frac > sup {border-bottom: 0.08em solid;}
-span.frac > span {display: none;}
-
-.over { text-decoration: overline; }
